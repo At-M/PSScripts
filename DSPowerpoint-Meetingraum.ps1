@@ -4,6 +4,7 @@ function updateofficereg() {
     $path = "HKCU:\SOFTWARE\Microsoft\Office\16.0\powerpoint\options"
     if (Test-Path $path) {
     $value = "\\\\.\\DISPLAY2"
+    $keyname ="DisplayMonitor"
     # Write to registry
   
       # Check if path exists
