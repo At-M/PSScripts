@@ -29,6 +29,9 @@ $TeamsMachWideExePath = "C:\Program Files (x86)\Teams Installer\Teams.exe"
 # Outlook has to be closed first to run it, since one of the folders messes with Outlook aswell (TeamsPresenceAddIn)
 # This modified script has been tested once (25.08.23 12:07), it worked but it's not the prettiest
 
+# To run this as a user, the easiest way would be to create a .bat with the following content that the user can just open and run
+# start powershell.exe -executionpolicy bypass -file "path\to\this\psfile.ps1"
+
 ################################
 # Code, nothing to change here #
 ################################
