@@ -1,0 +1,1 @@
+start powershell.exe -executionpolicy bypass -windowstyle hidden -noninteractive -nologo -file "\files\signaturegenerator_o365.ps1"
